@@ -4,8 +4,9 @@
 
 
 body{
-    padding: 0;
-    margin: 0;
+    background-color: #37432d;
+    padding: 10;
+    margin: 10;
 }
 
 *{
@@ -13,13 +14,11 @@ body{
 }
 
 main{
-    background-color: #37432d;
     display: grid;
     grid-template-areas: "h"
                          "m"
                          "ar"
                          "f";
-    
 }
 
 article p{
@@ -48,38 +47,30 @@ nav a:visited{
 nav a:active{
     color: gray;
 }
-
 h2{
     font-family: 'Turret Road';
 }
-
 footer{
     font-family: 'Shadow Into Light';
 }
-
 header{
     grid-area: h;
     text-align: center;
 }
-
 nav{
     grid-area: m;
 }
-
 nav ul{
     grid-area: fels;
 }
-
 article{
     grid-area: ar;
     grid-template-columns: 1fr 1fr 1fr;
-    
     display: grid;
 }
-
 footer{
     grid-area: f;
 }
 article img{
-    width:50%
+    width:70%
 }
