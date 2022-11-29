@@ -114,6 +114,7 @@ body::-webkit-scrollbar-thumb
 {
 	border-radius: 5px;
 	background-color: #678c4a;
+    
 }
 
 @media screen and (max-width:500px) {
