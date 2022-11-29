@@ -15,10 +15,11 @@ body{
 main{
     background-color: #37432d;
     display: grid;
-    grid-template-areas:  "m h"
-                         "m ar"
-                         "f ar";
-    gap: 50px;
+    grid-template-areas: "h"
+                         "m"
+                         "ar"
+                         "f";
+    
 }
 
 article p{
@@ -72,7 +73,7 @@ nav ul{
 article{
     grid-area: ar;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 50px;
+    
     display: grid;
 }
 
@@ -80,5 +81,5 @@ footer{
     grid-area: f;
 }
 article img{
-    width:100%
+    width:50%
 }
