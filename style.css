@@ -94,8 +94,8 @@ article img{
 }
 
 .grid{
-    border-left: 2px solid #252e1f;
-    border-right: 2px solid #252e1f;
+    border-left: 1px solid #252e1f;
+    border-right: 1px solid #252e1f;
 }
 
 body::-webkit-scrollbar-track
