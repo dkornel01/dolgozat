@@ -6,6 +6,7 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: #37432d;
 }
 
 *{
@@ -13,22 +14,24 @@ body{
 }
 
 main{
-    background-color: #37432d;
+    border: 2px solid #252e1f ;
+    padding: 10px;
+    margin: 50px 10px 50px 10px;
+    border-radius: 20px;
+    background-color: #43602c80;
     display: grid;
     grid-template-areas: "h"
                          "m"
                          "ar"
                          "f";
-    
+    color: white;
 }
 
 article p{
     font-family: 'Patrick Hand';
-    color: white;
 }
 
 article h1{
-    color: white;
     font-family: 'Turret Road'
 }
 
