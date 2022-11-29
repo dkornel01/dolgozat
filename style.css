@@ -14,6 +14,10 @@ body{
 
 main{
     background-color: #37432d;
+    display: grid;
+    grid-template-areas: "h ar"
+                         "m ar"
+                         "f ar";
 }
 
 article p{
@@ -26,20 +30,20 @@ article h1{
     font-family: 'Turret Road'
 }
 
-menu ul li{
+nav ul li{
     list-style-type: none;
     font-family: 'Shadows Into Light';
 }
 
-menu a{
+nav a{
     color: white;
 }
 
-menu a:visited{
+nav a:visited{
     color: white;
 }
 
-menu a:active{
+nav a:active{
     color: gray;
 }
 
@@ -55,16 +59,18 @@ header{
     grid-area: h;
 }
 
-menu{
+nav{
     grid-area: m;
 }
 
-menu ul{
+nav ul{
     grid-area: fels;
 }
 
 article{
     grid-area: ar;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
 }
 
 footer{
