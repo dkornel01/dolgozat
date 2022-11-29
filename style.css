@@ -15,7 +15,7 @@ body{
 main{
     background-color: #37432d;
     display: grid;
-    grid-template-areas:  "h"
+    grid-template-areas:  "m h"
                          "m ar"
                          "f ar";
     gap: 50px;
