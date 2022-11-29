@@ -15,7 +15,7 @@ body{
 main{
     background-color: #37432d;
     display: grid;
-    grid-template-areas: "h ar"
+    grid-template-areas: "h"
                          "m ar"
                          "f ar";
 }
@@ -57,6 +57,7 @@ footer{
 
 header{
     grid-area: h;
+    text-align: center;
 }
 
 nav{
