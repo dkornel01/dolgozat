@@ -77,3 +77,6 @@ article{
 footer{
     grid-area: f;
 }
+article img{
+    width: 100%;
+}
