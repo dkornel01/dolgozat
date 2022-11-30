@@ -27,7 +27,6 @@ main{
     color: white;
 }
 
-
 article p{
     font-family: 'Patrick Hand';
     text-align: justify;
@@ -73,6 +72,8 @@ header{
 }
 nav{
     grid-area: m;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
 }
 nav ul{
     grid-area: fels;
