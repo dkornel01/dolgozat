@@ -21,9 +21,9 @@ main{
     background-color: #43602c80;
     display: grid;
     grid-template-areas: "h"
-                         "m"
                          "ar"
-                         "f";
+                         "f"
+                         "m";
     color: white;
 }
 
@@ -51,6 +51,7 @@ nav ul li{
 
 nav a{
     color: rgb(0, 132, 255);
+    
 }
 
 nav a:visited{
@@ -70,10 +71,8 @@ header{
     grid-area: h;
     text-align: center;
 }
-nav{
+nav {
     grid-area: m;
-    grid-template-columns: 1fr 1fr 1fr;
-    display: grid;
 }
 nav ul{
     grid-area: fels;
