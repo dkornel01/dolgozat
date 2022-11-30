@@ -125,12 +125,14 @@ body::-webkit-scrollbar-thumb
     }
     p{
         font-size: medium;
-        text-align: justify;
-
+        margin:0;
+        padding:0;
     }
     h1,h2{
-        text-align: center;
+        font-size: larger;
+        font-weight: bolder;
     }
+
 }
 
 @media screen and (max-width:400px) {
