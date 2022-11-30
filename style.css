@@ -27,9 +27,6 @@ main{
     color: white;
 }
 
-article{
-    text-align: center;
-}
 
 article p{
     font-family: 'Patrick Hand';
@@ -63,11 +60,11 @@ nav a:visited{
 nav a:active{
     color: gray;
 }
+nav a:hover{
+    color: aqua;
+}
 h2{
     font-family: 'Turret Road';
-}
-footer{
-    font-family: 'Shadow Into Light';
 }
 header{
     grid-area: h;
@@ -83,10 +80,12 @@ article{
     grid-area: ar;
     grid-template-columns: 1fr 1fr 1fr;
     display: grid;
+    text-align: center;
 }
 footer{
     grid-area: f;
     margin-top: 10px;
+    font-family: 'Shadow Into Light';
 }
 article img{
     width:70%
