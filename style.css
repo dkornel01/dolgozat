@@ -125,8 +125,6 @@ body::-webkit-scrollbar-thumb
     }
     p{
         font-size: medium;
-        margin:0;
-        padding:0;
     }
     h1,h2{
         font-size: x-large;
@@ -135,6 +133,9 @@ body::-webkit-scrollbar-thumb
     nav{
         font-size: large;
         font-weight: bold;
+    }
+    article img{
+        width: 60%;
     }
 
 }
@@ -155,5 +156,8 @@ body::-webkit-scrollbar-thumb
     nav{
         font-size: medium;
         font-weight: 900 ;
+    }
+    article img{
+        width: 50%;
     }
 }
