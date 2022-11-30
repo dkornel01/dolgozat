@@ -51,7 +51,6 @@ nav ul li{
 
 nav a{
     color: rgb(0, 132, 255);
-    
 }
 
 nav a:visited{
@@ -73,6 +72,7 @@ header{
 }
 nav {
     grid-area: m;
+    font-size: x-large;
 }
 nav ul{
     grid-area: fels;
@@ -129,8 +129,12 @@ body::-webkit-scrollbar-thumb
         padding:0;
     }
     h1,h2{
-        font-size: larger;
+        font-size: x-large;
         font-weight: bolder;
+    }
+    nav{
+        font-size: large;
+        font-weight: bold;
     }
 
 }
@@ -139,5 +143,17 @@ body::-webkit-scrollbar-thumb
     article{
         grid-template-columns: 1fr;
         display: grid;
+    }
+    p{
+        font-size: small;
+        font-weight: 700;
+    }
+    h1,h2{
+        font-size: large;
+        font-weight: 500;
+    }
+    nav{
+        font-size: medium;
+        font-weight: 900 ;
     }
 }
