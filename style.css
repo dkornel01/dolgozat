@@ -53,11 +53,11 @@ nav ul li{
 }
 
 nav a{
-    color: white;
+    color: rgb(0, 132, 255);
 }
 
 nav a:visited{
-    color: white;
+    color: rgb(255, 0, 0);
 }
 
 nav a:active{
