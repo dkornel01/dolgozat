@@ -26,9 +26,6 @@ main{
                          "f";
     color: white;
 }
-nav{
-    grid-template-columns: 1fr 1fr 1fr;
-}
 
 article p{
     font-family: 'Patrick Hand';
@@ -74,6 +71,8 @@ header{
 }
 nav{
     grid-area: m;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
 }
 nav ul{
     grid-area: fels;
