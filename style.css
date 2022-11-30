@@ -131,5 +131,14 @@ body::-webkit-scrollbar-thumb
     h1,h2{
         text-align: center;
     }
+}
+
+@media screen and (max-width:400px) {
+    article{
+        grid-template-columns: 1fr;
+        display: grid;
+    }
+    
+
 
 }
