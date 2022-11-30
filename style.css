@@ -26,7 +26,9 @@ main{
                          "f";
     color: white;
 }
-
+nav{
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 article p{
     font-family: 'Patrick Hand';
