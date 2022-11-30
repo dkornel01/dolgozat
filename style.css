@@ -32,6 +32,7 @@ article p{
     font-family: 'Patrick Hand';
     text-align: justify;
     margin-left: 50px;
+    margin-right: 50px;
 }
 
 article h1{
@@ -86,6 +87,7 @@ footer{
     grid-area: f;
     margin-top: 10px;
     font-family: 'Shadow Into Light';
+    text-align: center;
 }
 article img{
     width:70%
