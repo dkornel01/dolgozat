@@ -118,11 +118,18 @@ body::-webkit-scrollbar-thumb
 
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:800px) {
     article{
-        grid-template-columns: 1fr;
+        grid-template-columns:1fr 1fr;
         display: grid;
-    
+    }
+    p{
+        font-size: medium;
+        text-align: justify;
+
+    }
+    h1,h2{
+        text-align: center;
     }
 
 }
