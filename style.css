@@ -37,6 +37,7 @@ article p{
 article h1{
     font-family: 'Turret Road';
     text-align: center;
+    font-weight: bolder;
 }
 
 article img{
@@ -65,6 +66,7 @@ nav a:hover{
 }
 h2{
     font-family: 'Turret Road';
+    font-weight: bolder;
 }
 header{
     grid-area: h;
@@ -151,7 +153,7 @@ body::-webkit-scrollbar-thumb
     }
     h1,h2{
         font-size: large;
-        font-weight: 500;
+        font-weight: 600;
     }
     nav{
         font-size: medium;
@@ -160,4 +162,5 @@ body::-webkit-scrollbar-thumb
     article img{
         width: 50%;
     }
+    
 }
